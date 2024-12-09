@@ -37,3 +37,42 @@
 
 // let omkrets = 2 * Math.PI * radius; 
 // console.log(omkrets);
+
+// 6 Övning: Implicit och explicit typkonvertering (Medel) Uppgift:
+
+// Deklarera variablerna x = "5" (string) och y = 3 (number). Utför följande operationer och skriv ut resultaten: x + y Number(x) + y x * y x / y x - y x + y + y x + (y + y) Förklara skillnaderna i resultaten. Lösningstips:
+
+// Förstå hur JavaScript hanterar typkonvertering vid olika operationer.
+
+// let x = "5";
+// let y = 3; 
+// let xy = x + y;
+// console.log(xy);
+// let xy =Number(x) + y
+// console.log(typeof xy);
+// let xy = x * y;
+// console.log(typeof xy);
+// let xy = x / y;
+// console.log(typeof xy);
+// let xy = x - y;
+// console.log(typeof xy);
+// let xy = x + y + y;
+// console.log(xy);
+// console.log(typeof xy);
+// let xy = x + (y + y);
+// console.log(xy);
+// console.log(typeof xy);
+
+// 8 Övning: Skapa en enkel kalkylator för två tal (Svår) Uppgift:
+
+// Be användaren att ange två tal via prompt(). Spara talen i variabler och konvertera dem till nummer. Be användaren välja en operation: addition, subtraktion, multiplikation eller division. Utför operationen och skriv ut resultatet. Hantera fall där användaren matar in ogiltiga värden eller försöker dela med noll. Lösningstips:
+
+// Använd switch eller if-else för att hantera val av operation. Använd isNaN() för att kontrollera giltigheten av inmatade värden.
+
+let inputValue = prompt("Enter a number");
+let numberValue = Number(inputValue);
+if (!isNaN(numberValue)) {
+     console.log(numberValue, typeof numberValue);
+    } else { 
+     console.log("Not a number");
+}
