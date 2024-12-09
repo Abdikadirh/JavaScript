@@ -69,10 +69,30 @@
 
 // Använd switch eller if-else för att hantera val av operation. Använd isNaN() för att kontrollera giltigheten av inmatade värden.
 
-let inputValue = prompt("Enter a number");
-let numberValue = Number(inputValue);
-if (!isNaN(numberValue)) {
-     console.log(numberValue, typeof numberValue);
-    } else { 
-     console.log("Not a number");
-}
+// let inputValue = prompt("Enter a number");
+// let numberValue = Number(inputValue);
+// if (!isNaN(numberValue)) {
+//      console.log(numberValue, typeof numberValue);
+//     } else { 
+//      console.log("Not a number");
+// }
+
+// 16OKt
+
+// Grundläggande Aritmetiska Operationer (Lätt) Uppgift: Deklarera två variabler a och b med värdena 12 och 5. Beräkna och skriv ut summan, differensen, produkten, kvoten och resten av a och b.
+
+// Exempel på utskrift:
+
+// makefile Kopiera kod a = 12, b = 5 Summa: 17 Differens: 7 Produkt: 60 Kvot: 2.4 Rest: 2
+// let a = 12;
+// let b = 5;
+// let summa = a + b;
+// let differens = a - b;
+// let produkt = a * b;
+// let kvot = a / b;
+// let rest = a % b;
+// console.log("Summa:", summa);
+// console.log("Differens:", differens);
+// console.log("Produkt:", produkt);
+// console.log("Kvot:", kvot);
+// console.log("Rest:", rest);
