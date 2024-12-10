@@ -99,36 +99,36 @@
 
 // Övning 6: Enkel Kalkylator (Medel) Uppgift: Skriv ett program som ber användaren ange två tal och en operator (+, -, *, /, %). Utför operationen och skriv ut resultatet. Hantera division med noll genom att kontrollera om nämnaren är noll.
 // Be användaren ange två tal
-let number1 = parseFloat(prompt("Ange det första talet:"));
-let operator = prompt("Ange en operator (+, -, *, /, %):");
-let number2 = parseFloat(prompt("Ange det andra talet:"));
+// let number1 = parseFloat(prompt("Ange det första talet:"));
+// let operator = prompt("Ange en operator (+, -, *, /, %):");
+// let number2 = parseFloat(prompt("Ange det andra talet:"));
 
-let result;
+// let result;
 
-// Kontrollera vilken operation som ska utföras
-if (operator === "+") {
-  result = number1 + number2;
-} else if (operator === "-") {
-  result = number1 - number2;
-} else if (operator === "*") {
-  result = number1 * number2;
-} else if (operator === "/") {
-  // Hantera division med noll
-  if (number2 !== 0) {
-    result = number1 / number2;
-  } else {
-    result = "Fel: Division med noll är inte tillåten!";
-  }
-} else if (operator === "%") {
-  // Hantera modulus med noll
-  if (number2 !== 0) {
-    result = number1 % number2;
-  } else {
-    result = "Fel: Modulus med noll är inte tillåten!";
-  }
-} else {
-  result = "Fel: Ogiltig operator!";
-}
+// // Kontrollera vilken operation som ska utföras
+// if (operator === "+") {
+//   result = number1 + number2;
+// } else if (operator === "-") {
+//   result = number1 - number2;
+// } else if (operator === "*") {
+//   result = number1 * number2;
+// } else if (operator === "/") {
+//   // Hantera division med noll
+//   if (number2 !== 0) {
+//     result = number1 / number2;
+//   } else {
+//     result = "Fel: Division med noll är inte tillåten!";
+//   }
+// } else if (operator === "%") {
+//   // Hantera modulus med noll
+//   if (number2 !== 0) {
+//     result = number1 % number2;
+//   } else {
+//     result = "Fel: Modulus med noll är inte tillåten!";
+//   }
+// } else {
+//   result = "Fel: Ogiltig operator!";
+// }
 
-// Skriv ut resultatet
-console.log(`Resultatet är: ${result}`);
+// // Skriv ut resultatet
+// console.log(`Resultatet är: ${result}`);
