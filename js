@@ -96,3 +96,34 @@
 // console.log("Produkt:", produkt);
 // console.log("Kvot:", kvot);
 // console.log("Rest:", rest);
+
+// Övning 1: Använda toUpperCase() och toLowerCase() (Lätt) Uppgift:
+
+// Be användaren ange en mening. Konvertera hela meningen till versaler och skriv ut resultatet. Konvertera hela meningen till gemener och skriv ut resultatet.
+
+// let mening = prompt("Enter a sentence");
+// // let versaler = mening.toUpperCase();
+// // console.log(versaler);
+// let gemener = mening.toLowerCase();
+// console.log(gemener);
+
+// Övning 2: Använda charAt() och slice() (Lätt) Uppgift:
+
+// Deklarera en strängvariabel med värdet "JavaScript". Skriv ut det första tecknet i strängen med charAt(). Skapa en ny sträng som innehåller de första fyra tecknen i originalsträngen med slice().
+
+// let strängVariabel = "JavaScript"; 
+// // let förstaTeckn = strängVariabel.charAt(0);
+// // console.log( förstaTeckn);
+
+// let förstFyraTecknen = strängVariabel.slice(1, 7);
+// console.log(förstFyraTecknen);
+
+// Övning 4: Använda replace() och includes() (Medel) Uppgift:
+
+// Deklarera en strängvariabel med värdet "Jag älskar programmering". Kontrollera om strängen innehåller ordet "programmering" med includes(). Ersätt ordet "programmering" med "JavaScript" med replace(). Skriv ut den nya strängen.
+
+// let strängVariabel = "Jag älskar programmering";
+// let test = strängVariabel.includes("programmering");
+// console.log(test);
+// let nytest = strängVariabel.replace("programmering", "JavaScript");
+// console.log(nytest);    
