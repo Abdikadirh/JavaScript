@@ -127,3 +127,4 @@
 // console.log(test);
 // let nytest = strängVariabel.replace("programmering", "JavaScript");
 // console.log(nytest);    
+
