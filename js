@@ -128,3 +128,52 @@
 // let nytest = strängVariabel.replace("programmering", "JavaScript");
 // console.log(nytest);    
 
+
+// Övning 1: Multiplikationstabell (Lätt)
+
+// Uppgift:
+
+// Be användaren ange ett tal mellan 1 och 10. Använd en for-loop för att skriva ut multiplikationstabellen för det talet (1 till 10).
+
+// Tips: Loop från 1 till 10 och multiplicera med användarens tal. Exempel:
+
+// let number = prompt("Enter a number beteween 1 and 10");
+// if (number >= 1 && number <= 10) {
+//     console.log("Multiplication table for", number);
+//     for (let i = 1; i <= 10; i++) {
+//         console.log(`${number} x ${i} = ${number * i}`);
+    
+// }
+// } else {
+//   console.log("Vänligen ange ett tal mellan 1 och 10.");
+// }
+
+// Övning 2: Räkna Ned (Lätt)
+
+// Uppgift:
+
+// Skriv en loop som räknar ned från 10 till 1 och skriver ut varje nummer.
+
+// Tips: Använd en for-loop med minskande räknare.
+
+// for (let index = 10; index >= 1; index--) {
+//     console.log(index);
+// }
+
+// Övning 3: Summa av Udda Tal (Medel)
+
+// Uppgift:
+
+// Beräkna summan av alla udda tal mellan 1 och 100.
+
+// Tips: Kontrollera om ett tal är udda med i % 2 !== 0. Exempel:
+
+// let summa = 0;
+
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 2 !== 0) {
+//     summa += i;
+//   }
+// }
+
+// console.log("Summan av alla udda tal mellan 1 och 100 är: " + summa);
